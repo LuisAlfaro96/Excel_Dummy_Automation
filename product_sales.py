@@ -3,7 +3,7 @@ import openpyxl as openexcel
 file = '/Users/omnisoportetecnico/Desktop/Omni/Dummy Folder/produceSales.xlsx'
 excel_data = pd.ExcelFile(file)
 print(excel_data.sheet_names)
-# Exercise extraded by https://medium.com/analytics-vidhya/how-to-extract-information-from-your-excel-sheet-using-python-5f4f518aec49
+
 #now we will verify if our xlsx file has been uploaded succesfully just showing the firt ten rows
 df = excel_data.parse('Sheet1')
 #print(df.info)
